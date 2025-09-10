@@ -160,6 +160,7 @@ while :; do
             __QEMUArch=aarch64
             __FreeBSDArch=arm64
             __FreeBSDMachineArch=aarch64
+            unset __LLDB_Package
             ;;
         armel)
             __BuildArch=armel
